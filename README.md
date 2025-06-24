@@ -1,4 +1,4 @@
-# 📄 Customer Clustering App Documentation
+# 📄 Customer Clustering App 
 
 ## 📌 Project Overview
 **Customer Clustering App** is a user-friendly web application built using Streamlit. It allows users to:
