@@ -12,6 +12,29 @@ This tool is useful for business analysts and data scientists to segment custome
 
 ---
 
+## 📊 Workflow
+```mermaid
+graph LR
+    A[📁 Upload CSV] --> B[🎯 Select Features]
+    B --> C[🔧 Preprocessing]
+    C --> D[🤖 KMeans Clustering]
+    D --> E[📊 Visualization]
+    E --> F[💾 Download Results]
+    
+    C --> C1[Label Encoding]
+    C --> C2[Standard Scaling]
+    
+    E --> E1[t-SNE Plot]
+    E --> E2[Metrics]
+    E --> E3[Cluster Summary]
+    
+    style A fill:#e1f5ff
+    style D fill:#fff4e1
+    style F fill:#e1ffe1
+    style E fill:#ffe1f5
+```
+
+---
 ## ⚙️ Technologies Used
 - **Python** (Core language)
 - **Streamlit** (Web application framework)
