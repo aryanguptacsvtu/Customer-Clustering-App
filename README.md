@@ -107,13 +107,23 @@ graph LR
 ---
 
 ## 📎 File Structure
+```
 customer_clustering_app/
 
-├── app.py  # Main Streamlit app
+├── app.py              # Main Streamlit app
+├── requirements.txt    # Python dependencies
+├── DOCUMENTATION.md    # Technical documentation 
+└── new.csv             # Sample Input File 
+```
+---
+## 👨‍💻 Author
 
-├── requirements.txt # Python dependencies
+**Aryan Gupta**  
+📍 Bhilai, Chhattisgarh  
+🔗 [GitHub Profile](https://github.com/aryanguptacsvtu)
 
-└── DOCUMENTATION.md # Technical documentation 
+---
+## ⭐ Support
 
-└── new.csv # Sample Input File 
+If you like this project, leave a ⭐ and share it with others!
 
